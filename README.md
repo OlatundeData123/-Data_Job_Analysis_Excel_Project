@@ -2,27 +2,17 @@
 
 ## 📊 Data Job Analysis Dashboard
 
-![Dashboard Screenshot](images/dashboard.png)  
-*(Insert a screenshot of your Excel dashboard here)*
+## 📊 Dashboard Preview
+Here’s the Excel Salary Dashboard:
 
----
+![Excel Dashboard](Images/1_Salary_Dashboard.png)
 
-## 📖 Introduction
+## Introduction
 This project analyzes job salary data using Excel to provide insights into different roles, industries, and locations.  
 The goal is to help job seekers and analysts understand trends in pay and job availability.  
 
-The dataset used in this project comes from [Indeed](https://www.indeed.com/) and includes job postings with salary details.
-
----
-
-## 🗂 Excel Skills Used
-- Pivot Tables  
-- Charts  
-- Data Validation  
-- Conditional Formatting  
-- Formulas & Functions  
-
----
+The dataset used in this project comes from [Indeed](https://www.indeed.com/) and includes job postings with salary details. 
+It includes data cleaning, exploratory analysis, and visualization.
 
 ## 📁 Dataset
 The dataset contains job postings with the following fields:
@@ -33,22 +23,31 @@ The dataset contains job postings with the following fields:
 - Location  
 - Skills  
 
----
+## 📊 Key Insights
+- Top in-demand job roles
+- Salary distribution
+- Remote vs on-site opportunities
 
-## 🛠 Dashboard Build
+## 🗂 Excel Skills Used
+- Pivot Tables  
+- Charts  
+- Data Validation  
+- Conditional Formatting  
+- Formulas & Functions
+- Charts & Dashboards
 
-### Charts
-- **Median Salary by Job Title** → shows the average salary per role.  
-- **Job Count by Type** → shows distribution of full-time vs part-time roles.  
-- **Country/Region Heatmap** → highlights job availability globally.  
 
-### Example
-![Job Title Salary Chart](images/job_title_chart.png)
+## 🚀 Tools Used
+- Microsoft Excel
 
----
 
-## 🔢 Formulas & Functions
-Examples of formulas used:
+Conclusion
 
-```excel
-=MEDIAN(IF(JobTitle="Data Analyst", Salary))
+This project demonstrates how Excel can be used for data cleaning, analysis, and visualization.
+By combining pivot tables, charts, and data validation, the dashboard provides insights into:
+
+Which job titles have the highest salaries
+
+Which roles are most in-demand
+
+How job opportunities vary across locations and job types
